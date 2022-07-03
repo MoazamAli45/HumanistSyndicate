@@ -1,0 +1,33 @@
+/*   header  */
+.header{
+    height:100vh;
+    /* Background image and gradient of green color rgba for opacity */
+    background-image:linear-gradient(to right bottom, rgba($color-primary-light, 0.803), rgba($color-primary-dark, 0.803)  ) ,url(../R.img/rac.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    
+/*  Polygon  (X Y, X Y,X Y ,X Y ) */
+    // clip-path: polygon(0 0,100% 0,100% 75vh,0 100%);
+    
+    position:relative;
+    &__logo-box{
+        position: absolute;
+        
+        top: 4rem;
+        left: 4rem;
+    }
+    &__logo{
+        height: 15rem;
+        
+    
+    }
+    &__text-box{
+        position:absolute;
+        left:50%;
+        top:40%;
+     /*  To center */
+        transform: translate(-50%,-50%);
+        text-align: center;
+    }
+}

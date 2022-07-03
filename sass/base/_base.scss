@@ -1,0 +1,16 @@
+//  Basic def of project
+*
+,*::after
+,*::before{
+    margin:0;
+    padding:0;
+   box-sizing: inherit;
+}
+/* To make responsive */
+html{
+    font-size: 62.5%; /* now 1rem is 10px , 10px/16=62.5% */
+}
+body{
+     box-sizing:border-box;
+
+    }

@@ -1,0 +1,14 @@
+.footer{
+    background-color:rgba($color-grey-dark,1);
+    text-align: center;
+    height:10vh;
+    padding-top:2rem;
+
+   &__copyright{
+    color:$color-white;
+    font-size:1.6rem;
+
+   }
+  }
+   
+    
